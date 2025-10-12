@@ -24,7 +24,9 @@ const Header = () => {
         navigate("/error");
       });
   };
-
+  const moveToHome = ()=>{
+    navigate('/');
+  }
   useEffect(() => {
     const unsubscribe = onAuthStateChanged(auth, (user) => {
       if (user) {
@@ -66,6 +68,7 @@ const Header = () => {
           font-size="48"
           font-weight="600"
           fill="#bf0808"
+          onClick={moveToHome}
         >
           Netflix-GPT
         </text>

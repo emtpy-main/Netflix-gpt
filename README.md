@@ -1,7 +1,7 @@
-
+ 
 ---
 
-# 🎬 Project: Netflix-GPT
+# 🎬 Project: Netflix GPT
 
 ## 📘 Overview
 
@@ -30,7 +30,7 @@ A modern streaming web app combining a Netflix-style interface with AI-powered m
 ### Styling
 
 * **Tailwind CSS** for responsive UI.
-* Experimented with **Framer Motion** and **React Modal** for animations and interactivity.
+* Used **Framer Motion** and **React Modal** for animations and interactivity.
 
 ### Backend-as-a-Service
 
@@ -38,12 +38,21 @@ A modern streaming web app combining a Netflix-style interface with AI-powered m
 
 ### API Integration
 
-* Connected **TMDB** and **OpenAI** APIs for real-time movie data and AI-powered suggestions.
+* Integrated **TMDB** and **OpenAI** APIs for real-time movie data and AI-driven recommendations.
 
 ### Best Practices
 
 * Secured API keys via `.env` files.
-* Used **memoization** for performance optimization.
+* Applied **memoization** for performance optimization.
 
 ---
+
+## 🖼️ UI Preview
+
+Below is a preview of the app interface:
+
+![Netflix GPT UI Preview](./screenshot.png)
  
+
+---
+
