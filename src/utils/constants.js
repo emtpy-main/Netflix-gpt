@@ -13,7 +13,7 @@ export const image_cdn =
   "https://image.tmdb.org/t/p/w500/";
    
 
-export const Bg_url = '../../public/bg.jpeg';
+export const Bg_url = '/bg.jpeg';
 export const supportedLanguages = [{identifier:"en",name:"English"},
                                   {identifier:"hindi",name:"Hindi"},
                                   {identifier:"spanish",name:"Spanish"},
